@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!--question 10 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage VU 3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welche Aufgaben folgen Truppmänner und –führer beim „Verkehrsunfall Person eingeklemmt-Standard“: Unterstützungstruppmann:</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-25.0" format="html">
+        <text><![CDATA[<p>Man muss den Truppführerlehrgang abgeschlossen haben um diese Funktion ausführen zu können</p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+        <text><![CDATA[<p>Richtet nur den Rettungszylinder zum Einsatz her </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+        <text><![CDATA[<p>Richtet die orange Decke mit den Geräten her die im Standard Hochhaus festgelegt sind </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Erstellt die Verkehrsabsicherung </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Erstellt den Brandschutz </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+        <text><![CDATA[<p>Keine Lösung ist richtig </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 9 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage VU 2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welche Aufgaben folgen Truppmänner und –führer beim „Verkehrsunfall Person eingeklemmt-Standard“: Unterstützungstruppführer:</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Unterbauen der A Säule </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-20.0" format="html">
+        <text><![CDATA[<p>Zusammen mit dem Maschinisten das Formholz zum verunfallten PKW bringen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-20.0" format="html">
+        <text><![CDATA[<p>Unterbauen der C Säule </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-20.0" format="html">
+        <text><![CDATA[<p>Es muss nur die B Säule unterbaut werden </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Unterbauen der B Säule </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-20.0" format="html">
+        <text><![CDATA[<p>Verkehrsabsicherung herstellen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-20.0" format="html">
+        <text><![CDATA[<p>Keine Lösung trifft zu </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 8 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage VU</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welche Aufgaben folgen Truppmänner und –führer beim „Verkehrsunfall Person eingeklemmt-Standard“: Angriffstruppmann/führer:</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-25.0" format="html">
+        <text><![CDATA[<p>Absperren des Gefahrenbereiches </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+        <text><![CDATA[<p>Versorgung des Patienten mit Medikamenten </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Ausrüsten mit Erste Hilfe Material </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Erstversorgung des Patienten </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+        <text><![CDATA[<p>Muss kein Helmvisier tragen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+        <text><![CDATA[<p>Keine Lösung ist richtig </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 7 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage Schiebleiter 3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Mit welcher Anzahl an Personen darf die 3-teilige Schiebleiter im Einsatz im Normalfall belastet werden? (keine Menschenrettung)</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>1 Person </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="100.0" format="html">
+        <text><![CDATA[<p>2 Personen</p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>3 Personen</p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>4 Personen</p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 6 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage Schiebleiter 2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welches Geschoss erreicht man mit der 3-teiligen Schiebleiter bei maximaler Rettungshöhe?</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>5. – 6. OG </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="100.0" format="html">
+        <text><![CDATA[<p>3. – 4. OG </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>1. – 2. OG </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>7. – 8. OG </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 5 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage Schiebleiter</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Wie groß ist die maximale Rettungshöhe der 3-teiligen Schiebleiter?</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>10.59 m </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="100.0" format="html">
+        <text><![CDATA[<p>12.20 m </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>12.50 m </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>8.12 m </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 4 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage Mehrzweckzug 2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welche Zugkraft kann mit dem „Greifzug“ ausgeübt werden</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>10 kN </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="100.0" format="html">
+        <text><![CDATA[<p>16 kN</p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>160 kN </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>100 kN </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 3 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage Mehrzweckzug</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>In welcher Lage darf der Mehrzweckzug „Greifzug“ benutzt werden?</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-50.0" format="html">
+        <text><![CDATA[<p>Nur in waagerechter Lage </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-50.0" format="html">
+        <text><![CDATA[<p>Nur in senkrechter Lage </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="100.0" format="html">
+        <text><![CDATA[<p>Kann in jeder Lage verwendet werden </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 2 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage Hebekissen 2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Welches Gewicht können Hebekissen heben?</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>Groß 12 Tonnen</p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>Klein 24 Tonnen</p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>Klein 1.2 Tonnen</p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Groß 24 Tonnen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Klein 12 Tonnen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    <!--question 1 -->
+    <question type="multichoice">
+        <name>
+            <text>MultiChoice Frage Hebekissen</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Wie dürfen Hebekissen eingesetzt werden?</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>Egal </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>Nur kleines Kissen auf großes Kissen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="-33.33333333333333" format="html">
+        <text><![CDATA[<p>Nur großes Kissen auf kleines Kissen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Nur großes Kissen auf großes Kissen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    <answer fraction="50.0" format="html">
+        <text><![CDATA[<p>Nur kleines Kissen auf kleines Kissen </p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    
+    </question>
+    </quiz>
+    

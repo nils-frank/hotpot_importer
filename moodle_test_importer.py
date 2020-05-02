@@ -1,18 +1,19 @@
 #!/usr/local/bin/python
-import csv
 from sys import argv
+from pathlib import Path
 
 
 def read_csv(filename):
-    with open(filename, 'rb') as csvfile:
-        csv_file = csv.reader(csvfile, delimiter=',', quotechar='"')
-        next(csv_file, None)  # Skips first line of .csv file
-        for row in csv_file:
-            num_of_as = (len(row) - 3) / 2
-            answers = calc_weight(row, num_of_as)
-            all_answers = fill_all(answers, num_of_as)
-            final_question = fill_form(row, all_answers)
-            write_to_file(final_question)
+    with open(Path(filename), 'r') as f: csv_file = f.readlines()
+    csv_file = [f.strip().split(',') for f in csv_file[1:]]
+    create_export_file()
+    for row in csv_file:
+        row = [f for f in row if f != ''] # delete empty cells
+        num_of_as = int((len(row) - 3) / 2)
+        answers = calc_weight(row, num_of_as)
+        all_answers = fill_all(answers, num_of_as)
+        final_question = fill_form(row, all_answers)
+        write_to_file(final_question)
 
 
 def calc_weight(entry, num_of_as):
@@ -63,7 +64,7 @@ def check_zero(value):
 
 
 def write_to_file(content):
-    xml_file = argv[2]
+    xml_file = Path('export.xml')
     final_file = open(xml_file, 'r')
     line = final_file.readlines()
     final_file.close()
@@ -74,6 +75,18 @@ def write_to_file(content):
     content = "".join(line)
     final_file.write(content)
     final_file.close()
+
+
+def create_export_file():
+    with open(Path('export.xml'), 'w') as f:
+        f.write(get_xml_header())
+
+
+def get_xml_header():
+    return """<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+</quiz>
+    """
 
 
 def get_empty_question():
@@ -89,39 +102,39 @@ def get_empty_question():
 
 def get_empty_template():
     return """<!--question {} -->
-<question type="multichoice">
-    <name>
-        <text>{}</text>
-    </name>
-    <questiontext format="html">
-        <text><![CDATA[<p>{}</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-        <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <single>false</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <correctfeedback format="html">
-        <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-        <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-        <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
-    </incorrectfeedback>
-    <shownumcorrect/>
-   {}
-</question>
+    <question type="multichoice">
+        <name>
+            <text>{}</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>{}</p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist richtig</p>]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist teilweise richtig.</p>]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[<p>Die Antwort ist falsch</p>]]></text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+       {}
+    </question>
     """
 
 
 def main():
-    read_csv(argv[1])
+    read_csv('moodle_fragen_Tm2_1_2020.csv')
 
 
 if __name__ == '__main__':
